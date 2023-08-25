@@ -13,6 +13,13 @@ from urllib.parse import urlencode
 import random as rd
 from datetime import datetime
 
+# Path to Functions
+sys.path.append('Public\RNCP\BLOC_1\PYTHON')
+from myfunctions import print_statistics
+
+# Custom
+from tqdm import tqdm
+
 # Database
 from pymongo import MongoClient, errors
 
@@ -25,6 +32,18 @@ from pymongo import MongoClient, errors
 # API's URL
 api_url = "https://api.inaturalist.org/v1/observations/"
 
+# Define page range
+while True:
+    try:
+        start_page = int(input("Please enter the first page: "))
+        end_page = int(input("Please enter the last page (not incl.): "))
+        if end_page <= start_page:
+            print("Invalid input. The last page must be greater than the first page.")
+        else:
+            break
+    except ValueError:
+        print("Invalid input. Please enter an integer for both pages.")
+
 # Localisation : Gironde
 api_params = {
     "place_id" : "30139", #16.047 entries
@@ -32,12 +51,9 @@ api_params = {
     "quality_grade" : "research",
     "license" : "CC0,CC-BY,CC-BY-NC",
     "per_page" : "200", #81 pages
-    "page" : ""
+    "page" : "0"
 }
 
-# Define page range
-start_page = 50
-end_page = 51
 
 
 #########################
@@ -70,6 +86,17 @@ client = MongoClient(CONNECTION_STRING)
 #Create DB & Collection on MongoDB
 db = client["db_inat"]
 collection = db["Gironde"] # Or db.Gironde
+
+
+
+#########################
+###      CUSTOM       ###
+#########################
+
+# Bar progression
+bar_format = "{l_bar}{bar}| {n_fmt}/{total_fmt}" #Format
+bar_ncols = 90 #Size
+bar_colour = "GEREN" #valid choices: [#ff9900, BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE]
 
 
 
@@ -108,7 +135,6 @@ sys.stdout = log_f # log_f.close() is after the Main Code.
 
 
 
-
 #>>>>>>>>>>>>>>>>>>>>>>>#
 #>>       MAIN        >>#
 #>>>>>>>>>>>>>>>>>>>>>>>#
@@ -119,6 +145,8 @@ print("****************************************")
 print(f"Webscraping API started @ : {start_time}")
 print("****************************************")
 
+# Progression bar
+pbar = tqdm(total = end_page - start_page, desc="API requesting", bar_format = bar_format, ncols = bar_ncols, colour = bar_colour)
 
 # Navigate through the webpages (range number)
 for n in range(start_page, end_page): 
@@ -155,7 +183,6 @@ for n in range(start_page, end_page):
         print("File ", file_name, " saved successfully in the folder : ", db_dir_path)
 
         # Save data to DB
-        #collection.insert_one(data)
         try:
             result = collection.insert_many(data)
             print("MONGO DB - Inserted document IDs:")
@@ -176,51 +203,35 @@ for n in range(start_page, end_page):
         print(f"\nError {api_response.status_code} on page {n}.")
         continue
 
+    # pbar update
+    pbar.update(1)
+
+# Close pbar object
+pbar.close()
+
 # Close MongoDB connexion
 client.close()
+
+# After the loop, record the end time
+end_time = datetime.now()
 
 #<<<<<<<<<<<<<<<<<<<<<<<#
 #<<     END MAIN      <<#
 #<<<<<<<<<<<<<<<<<<<<<<<#
 
 
-
-#########################
-###     RUN TIME      ###
-#########################
-
-# After the loop, record the end time
-end_time = datetime.now()
-
-# Calculate the total_time and total_pages
-total_time = (end_time - start_time)
-total_pages = (end_page - start_page)
-
-# Calculate the total time in days, hours, minutes, and seconds
-total_seconds = total_time.total_seconds()
-days, remainder = divmod(total_seconds, 86400)
-hours, remainder = divmod(remainder, 3600)
-minutes, seconds = divmod(remainder, 60)
-stat_page = (total_pages / (total_seconds / 60))
-stat_obs = ((total_pages * 200) / (total_seconds / 60))
-
-# Print the time
-print("\n\n\n****************************************")
-print("Webscraping started @ :", start_time)
-print("Webscraping finished @ :", end_time)
-print(total_pages, "webscraped page(s).")
-print("\nThe execution took :", int(days), "days,", int(hours), "hours,", int(minutes), "minutes and", int(seconds), "seconds.")
-print(f"Statistics : {stat_page:.2f} pages/min - {stat_obs:.2f} observations/min")
-print("****************************************")
-
-
-
 #<<<<<<<<<<<<<<<<<<<<<<<#
 #<<<     END LOGS    <<<#
 #<<<<<<<<<<<<<<<<<<<<<<<#
+
+# Stats in the log file
+print_statistics(start_time, end_time, start_page, end_page)
 
 # Restore standard output
 sys.stdout = sys.__stdout__
 
 # Close log file
 log_f.close()
+
+# Stats in the terminal
+print_statistics(start_time, end_time, start_page, end_page)
