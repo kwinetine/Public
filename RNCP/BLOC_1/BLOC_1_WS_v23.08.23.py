@@ -1,10 +1,9 @@
+
 #########################
 ###    REQUIREMENTS   ###
 #########################
 '''
-pip install selenium
-pip install selenium-stealth
-pip install python-dateutil
+pip install -r requirements.txt
 '''
 
 
@@ -35,7 +34,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import NoSuchElementException
 
 # Path to Functions
-sys.path.append('Public\RNCP\BLOC_1\PYTHON')
+sys.path.append(main_dir_path)
 from myfunctions import print_statistics
 
 # Custom
@@ -103,11 +102,7 @@ log_dir_name = "LOGS"
 
 # Create a "LOGS" folder in the current folder if it doesn't exist
 log_dir_path = os.path.join(main_dir_path, log_dir_name)
-if not os.path.exists(log_dir_path):
-    os.makedirs(log_dir_path)
-    print(f"The directory '{log_dir_name}' created successfully in '{main_dir_path}' !\n'{log_dir_path}'")
-else:
-    print(f"The directory '{log_dir_path}' already exists.")
+os.makedirs(log_dir_path, exist_ok = True)
 
 # LOG File name
 log_file_name = f"log_{start_page}-{end_page-1}.txt"
@@ -126,11 +121,7 @@ db_dir_name = "DB"
 
 # Create a "DB" folder in the current folder if it doesn't exist
 db_dir_path = os.path.join(main_dir_path, db_dir_name)
-if not os.path.exists(db_dir_path):
-    os.makedirs(db_dir_path)
-    print(f"The directory '{db_dir_name}' created successfully in '{main_dir_path}' !\n'{db_dir_path}'")
-else:
-    print(f"The directory '{db_dir_path}' already exists.")
+os.makedirs(db_dir_path, exist_ok = True)
 
 # CSV full file name
 csv_file_name = f"inat_db_{start_page}-{end_page-1}.csv"
@@ -206,7 +197,7 @@ stealth(
 #>>>>>>>>>>>>>>>>>>>>>>>#
 
 # Open the file in write mode
-log_f = open(log_file_path, 'w')
+log_f = open(log_file_path, "w")
 
 # Redirect standard output to the log file
 sys.stdout = log_f # log_f.close() is after the Main Code.
@@ -219,6 +210,8 @@ sys.stdout = log_f # log_f.close() is after the Main Code.
 
 # Start time
 start_time = datetime.now()
+
+# Print
 print("****************************************")
 print(f"Webscraping started @ : {start_time}")
 print(csv_file_path, "created successfully !")
