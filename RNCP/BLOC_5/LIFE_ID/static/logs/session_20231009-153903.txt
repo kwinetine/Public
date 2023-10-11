@@ -1,2 +1,0 @@
-161 - 2023-10-09 15:46:19,824 - LIFE_ID_logger - ERROR - Vous n'avez pas sélectionné d'image
-196 - 2023-10-09 15:46:20,607 - LIFE_ID_logger - ERROR - Vous n'avez pas inséré d'URL !

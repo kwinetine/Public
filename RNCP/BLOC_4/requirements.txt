@@ -1,0 +1,15 @@
+efficientnet
+tensorflow
+split-folders
+keras
+# rebase
+pandas
+matplotlib
+numpy==1.26
+scikit-learn
+seaborn
+plotly
+# Only for GPU with PyTorch
+# pip3 install torch==2.0.1+cu118 torchvision==0.15.2+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+# efficientnet_pytorch
+# torchtoolbox

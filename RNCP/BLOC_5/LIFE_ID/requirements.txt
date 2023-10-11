@@ -1,6 +1,0 @@
-Flask
-Tensorflow
-Pillow
-numpy
-urllib
-requests
