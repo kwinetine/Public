@@ -39,11 +39,6 @@
 |_ README.md
 
 
-# Flask
-- Lancer l'exécution du Script flaskapp.py :
-python3 flaskapp.py
-
-
 # Docker
 docker build -t life_id .
 <!--
@@ -56,6 +51,23 @@ docker run -p 2024:2024 -it life_id
 "-i" to get interactive
 "-t" to assign a pseudo-TTY device and interact with the terminal
 -->
+
+# Docker command
+docker ps -a
+docker stop <container_id>
+docker rm <container_id>
+
+docker images
+docker rmi life_id
+<!--
+to delete the Docker Image, if prblem use -f
+-->
+docker rmi -f life_id
+
+
+# Flask
+- Lancer l'exécution du Script flaskapp.py :
+python3 flaskapp.py
 
 
 
