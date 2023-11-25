@@ -5,7 +5,7 @@ FROM python:3.10
 WORKDIR /app
 
 # Copy the contents of the project directory into the container
-COPY ./LIFE_ID /app
+COPY ./LAIFE_ID /app
 
 # Install dependencies in the container
 RUN pip install -r requirements.txt
