@@ -27,7 +27,7 @@
     |_ templates *folder with .html templates*
         |_ index.html
         |_ predictions.html
-        |_ management.html
+        |_ gestion.html
     |
     |_ config.py *FLASK configuration file*
     |_ dictionary.txt *file of names for predictions*
@@ -39,12 +39,14 @@
 |_ README.md
 
 
+
+
 # Docker
-docker build -t life_id .
+docker build -t laife_id .
 <!--
 "-t" to define the tag / to assign a pseudo-TTY device
 -->
-docker run -p 2024:2024 -it life_id
+docker run -p 2024:2024 -it laife_id
 <!--
 "-p" to define the port
 "-it" to get interactive control over the container (not mandatory)
@@ -54,15 +56,14 @@ docker run -p 2024:2024 -it life_id
 
 # Docker command
 docker ps -a
-docker stop <container_id>
-docker rm <container_id>
+docker stop 2645fb4b58b2
+docker rm 2645fb4b58b2
 
 docker images
-docker rmi life_id
+docker rmi laife_id
 <!--
-to delete the Docker Image, if prblem use -f
+to delete the Docker Image, if prblem use -f : docker rmi -f life_id
 -->
-docker rmi -f life_id
 
 
 # Flask

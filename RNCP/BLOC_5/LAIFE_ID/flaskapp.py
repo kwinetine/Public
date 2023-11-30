@@ -32,19 +32,24 @@ init(autoreset = True)
 
 app = Flask(__name__, template_folder = "templates")
 
-# Set the environment : ONLY for WINDOWS DEMONSTRATION, otherwise DELETE because it will be detected automatically.
-ENV = "development"
+
+# Get the environment from environment variable
+ENV = os.getenv("FLASK_ENV", "development")
+
+# If FLASK_ENV is not set, default to "testing"
+if ENV is None:
+    ENV = "testing"
 
 # Load the config according to the detected environment.
 if ENV == "production":
     app.config.from_object(ProductionConfig)
-    print(Fore.GREEN + "##### PRODUCTION ENVIRONMENT : Specific configuration for production deployment loaded ! #####")
+    print(Fore.RED + "##### PRODUCTION ENVIRONMENT : Specific configuration for production deployment loaded ! #####")
 elif ENV == "development":
     app.config.from_object(DevelopmentConfig)
-    print(Back.GREEN + "##### DEVELOPMENT ENVIRONMENT : Specific configuration for development deployment loaded ! #####")
+    print(Back.BLUE + "##### DEVELOPMENT ENVIRONMENT : Specific configuration for development deployment loaded ! #####")
 elif ENV == "testing":
     app.config.from_object(TestingConfig)
-    print(Fore.GREEN + "##### TESTING ENVIRONMENT : Specific configuration for testing deployment loaded ! #####")
+    print(Fore.YELLOW + "##### TESTING ENVIRONMENT : Specific configuration for testing deployment loaded ! #####")
 else:
     raise ValueError(Back.RED + "##### Invalid environment name ! #####")
 
@@ -75,7 +80,7 @@ os.makedirs("static/user_content", exist_ok = True)
 ###      LOGGER       ###
 #########################
 
-logger = logging.getLogger("LIFE_ID_logger")
+logger = logging.getLogger("LAIFE_ID_logger")
 logger.setLevel(logging.DEBUG)
 handler = logging.FileHandler(log_filename, encoding = "utf-8")
 handler.setLevel(logging.DEBUG)
