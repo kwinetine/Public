@@ -9,6 +9,9 @@ import shutil  # Files operations
 import logging
 import ast # for Abstract Syntax Trees
 import os
+# Create the logs directory if it doesn't exist
+os.makedirs("static/logs", exist_ok = True)
+os.makedirs("static/user_content", exist_ok = True)
 
 from flask import Flask, render_template, request #, jsonify, url_for, flash, redirect
 from keras.models import load_model
@@ -70,10 +73,6 @@ error_img_nofile = "Vous n'avez pas sélectionné d'image ! "
 error_link_field_empty = "Vous n'avez pas inséré d'URL ! "
 error_link_field_image = "L'URL ne doit pas rediriger vers une image ! "
 
-# Create the logs directory if it doesn't exist
-os.makedirs("static/logs", exist_ok = True)
-os.makedirs("static/user_content", exist_ok = True)
-
 
 
 #########################
@@ -128,13 +127,12 @@ def predict_label(img_path):
 
     predicted_class_index = np.argmax(p)
     confidence_cal = p[0][predicted_class_index]
-    confidence = "{:.3f} %".format(confidence_cal * 100)
     predicted_class = d[predicted_class_index]
 
     # If confidence calculate < confidence limit, special value
     if confidence_cal < confidence_limit:
-        return "low_confidence", confidence_cal, confidence
-    return predicted_class, confidence
+        return "low_confidence", confidence_cal
+    return predicted_class, confidence_cal
 
 
 def get_random_anecdote(prediction):
@@ -203,6 +201,7 @@ def linkimg():
                     logger.info(f"{success_img_upload} {img_path}")
                     logger.info(f"{m} {confidence}")
 
+                    confidence = "{:.3f} %".format(confidence * 100)
                     return render_template("predictions.html", prediction = m, confidence = confidence, a = a)
 
     return render_template("predictions.html", error = error)
@@ -252,6 +251,7 @@ def linkurl():
                         logger.info(f"{success_img_upload} {img_path}")
                         logger.info(f"{m} {confidence}")
 
+                        confidence = "{:.3f} %".format(confidence * 100)
                         return render_template("predictions.html", prediction = m, confidence = confidence, a = a)
 
                     else:

@@ -56,8 +56,8 @@ docker run -p 2024:2024 -it laife_id
 
 # Docker command
 docker ps -a
-docker stop 2645fb4b58b2
-docker rm 2645fb4b58b2
+docker stop 01c27b127736
+docker rm 596eaab4bc85
 
 docker images
 docker rmi laife_id

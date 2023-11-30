@@ -24,7 +24,7 @@
 			<div id="header">
 
 				<!-- Logo -->
-				<h1><a href="index.html" id="logo">LIFE &nbsp; IDentifier<br/></a><em>The most powerful classification tool</em></h1>
+				<h1><a href="index.html" id="logo">L.AI.FE &nbsp; IDentifier<br/></a><em>The most powerful classification tool</em></h1>
 
 				<!-- Nav -->
 					<nav id="nav">
@@ -96,7 +96,7 @@
 									{% if prediction == "low_confidence" %}
 										<span><img src="https://media.tenor.com/O2MrNW0irFAAAAAC/cat-nah.gif" alt="" /></span>
 										<h2>Nous n'avons malheureusement pas reconnu votre image.<br/>Notre modèle ne doit pas connaître cet animal.</h2>
-										<h3>(Affichage pour Test : {{confidence_cal}})<br/>Certitude de : <b><i>{{confidence}}</i></b></h3>
+										<h3>Certitude de : <b><i>{{confidence}}</i></b></h3>
 										{% else %}
 										<h2 style="color: rgb(0, 0, 0); font-weight: bold;"><span style="text-decoration: underline;">Prédiction :</span><br/>Ceci est <b><i>{{prediction}} !</i></b></h2>
 
