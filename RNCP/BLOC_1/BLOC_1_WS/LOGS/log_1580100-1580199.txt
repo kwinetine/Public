@@ -1,0 +1,354 @@
+****************************************
+Webscraping started @ : 2023-10-23 23:49:33.547173
+c:\WORKSPACES\GITHUB\RNCP\BLOC_1\BLOC_1_WS\DB\inat_db_1580100-1580199.csv created successfully !
+c:\WORKSPACES\GITHUB\RNCP\BLOC_1\BLOC_1_WS\LOGS\log_1580100-1580199.txt created successfully !
+****************************************
+
+>>> La page 1580100 EXISTE (https://www.inaturalist.org/observations/1580100) !
+
+>>> La page 1580101 EXISTE (https://www.inaturalist.org/observations/1580101) !
+Unable to find picture url on page 1580101.
+
+>>> La page 1580102 EXISTE (https://www.inaturalist.org/observations/1580102) !
+Unable to find common name on page 1580102.
+Unable to find scientific name on page 1580102.
+Unable to find picture url on page 1580102.
+Unable to find date or format incorrect on page 1580102.
+Unable to find or parse latitude on page 1580102.
+Unable to find or parse longitude on page 1580102.
+Unable to find precision on page 1580102.
+Unable to find continent on page 1580102.
+Unable to find country on page 1580102.
+Unable to find state/region on page 1580102.
+
+>>> La page 1580103 EXISTE (https://www.inaturalist.org/observations/1580103) !
+Unable to find common name on page 1580103.
+Unable to find scientific name on page 1580103.
+Unable to find picture url on page 1580103.
+Unable to find date or format incorrect on page 1580103.
+Unable to find or parse latitude on page 1580103.
+Unable to find or parse longitude on page 1580103.
+Unable to find precision on page 1580103.
+Unable to find continent on page 1580103.
+Unable to find country on page 1580103.
+Unable to find state/region on page 1580103.
+
+>>> La page 1580104 EXISTE (https://www.inaturalist.org/observations/1580104) !
+
+>>> La page 1580105 EXISTE (https://www.inaturalist.org/observations/1580105) !
+Unable to find picture url on page 1580105.
+
+>>> La page 1580106 EXISTE (https://www.inaturalist.org/observations/1580106) !
+Unable to find picture url on page 1580106.
+
+>>> La page 1580107 EXISTE (https://www.inaturalist.org/observations/1580107) !
+Unable to find picture url on page 1580107.
+
+>>> La page 1580108 EXISTE (https://www.inaturalist.org/observations/1580108) !
+
+>>> La page 1580109 EXISTE (https://www.inaturalist.org/observations/1580109) !
+Unable to find picture url on page 1580109.
+
+>>> La page 1580110 EXISTE (https://www.inaturalist.org/observations/1580110) !
+Unable to find picture url on page 1580110.
+
+>>> La page 1580111 EXISTE (https://www.inaturalist.org/observations/1580111) !
+Unable to find picture url on page 1580111.
+
+>>> La page 1580112 EXISTE (https://www.inaturalist.org/observations/1580112) !
+
+>>> La page 1580113 EXISTE (https://www.inaturalist.org/observations/1580113) !
+
+>>> La page 1580114 EXISTE (https://www.inaturalist.org/observations/1580114) !
+
+>>> La page 1580115 EXISTE (https://www.inaturalist.org/observations/1580115) !
+
+>>> La page 1580116 EXISTE (https://www.inaturalist.org/observations/1580116) !
+Unable to find picture url on page 1580116.
+
+>>> La page 1580117 EXISTE (https://www.inaturalist.org/observations/1580117) !
+
+>>> La page 1580118 EXISTE (https://www.inaturalist.org/observations/1580118) !
+
+>>> La page 1580119 EXISTE (https://www.inaturalist.org/observations/1580119) !
+
+>>> La page 1580120 EXISTE (https://www.inaturalist.org/observations/1580120) !
+
+>>> La page 1580121 EXISTE (https://www.inaturalist.org/observations/1580121) !
+Unable to find picture url on page 1580121.
+
+>>> La page 1580122 EXISTE (https://www.inaturalist.org/observations/1580122) !
+
+>>> La page 1580123 EXISTE (https://www.inaturalist.org/observations/1580123) !
+
+>>> La page 1580124 EXISTE (https://www.inaturalist.org/observations/1580124) !
+
+>>> La page 1580125 EXISTE (https://www.inaturalist.org/observations/1580125) !
+
+>>> La page 1580126 EXISTE (https://www.inaturalist.org/observations/1580126) !
+
+>>> La page 1580127 EXISTE (https://www.inaturalist.org/observations/1580127) !
+
+>>> La page 1580128 EXISTE (https://www.inaturalist.org/observations/1580128) !
+Unable to find picture url on page 1580128.
+
+>>> La page 1580129 EXISTE (https://www.inaturalist.org/observations/1580129) !
+Unable to find picture url on page 1580129.
+
+>>> La page 1580130 EXISTE (https://www.inaturalist.org/observations/1580130) !
+
+>>> La page 1580131 EXISTE (https://www.inaturalist.org/observations/1580131) !
+Unable to find picture url on page 1580131.
+
+>>> La page 1580132 EXISTE (https://www.inaturalist.org/observations/1580132) !
+
+>>> La page 1580133 EXISTE (https://www.inaturalist.org/observations/1580133) !
+Unable to find picture url on page 1580133.
+
+>>> La page 1580134 EXISTE (https://www.inaturalist.org/observations/1580134) !
+
+>>> La page 1580135 EXISTE (https://www.inaturalist.org/observations/1580135) !
+Unable to find picture url on page 1580135.
+
+La page 1580136 n'existe pas (https://www.inaturalist.org/observations/1580136).
+
+>>> La page 1580137 EXISTE (https://www.inaturalist.org/observations/1580137) !
+Unable to find picture url on page 1580137.
+
+>>> La page 1580138 EXISTE (https://www.inaturalist.org/observations/1580138) !
+
+>>> La page 1580139 EXISTE (https://www.inaturalist.org/observations/1580139) !
+Unable to find picture url on page 1580139.
+
+>>> La page 1580140 EXISTE (https://www.inaturalist.org/observations/1580140) !
+Unable to find picture url on page 1580140.
+
+>>> La page 1580141 EXISTE (https://www.inaturalist.org/observations/1580141) !
+
+>>> La page 1580142 EXISTE (https://www.inaturalist.org/observations/1580142) !
+
+>>> La page 1580143 EXISTE (https://www.inaturalist.org/observations/1580143) !
+
+>>> La page 1580144 EXISTE (https://www.inaturalist.org/observations/1580144) !
+
+>>> La page 1580145 EXISTE (https://www.inaturalist.org/observations/1580145) !
+Unable to find scientific name on page 1580145.
+
+>>> La page 1580146 EXISTE (https://www.inaturalist.org/observations/1580146) !
+
+>>> La page 1580147 EXISTE (https://www.inaturalist.org/observations/1580147) !
+
+>>> La page 1580148 EXISTE (https://www.inaturalist.org/observations/1580148) !
+
+>>> La page 1580149 EXISTE (https://www.inaturalist.org/observations/1580149) !
+Unable to find picture url on page 1580149.
+
+>>> La page 1580150 EXISTE (https://www.inaturalist.org/observations/1580150) !
+
+>>> La page 1580151 EXISTE (https://www.inaturalist.org/observations/1580151) !
+
+>>> La page 1580152 EXISTE (https://www.inaturalist.org/observations/1580152) !
+
+>>> La page 1580153 EXISTE (https://www.inaturalist.org/observations/1580153) !
+Unable to find common name on page 1580153.
+Unable to find scientific name on page 1580153.
+Unable to find or parse latitude on page 1580153.
+Unable to find or parse longitude on page 1580153.
+Unable to find continent on page 1580153.
+Unable to find country on page 1580153.
+Unable to find state/region on page 1580153.
+
+>>> La page 1580154 EXISTE (https://www.inaturalist.org/observations/1580154) !
+
+>>> La page 1580155 EXISTE (https://www.inaturalist.org/observations/1580155) !
+Unable to find picture url on page 1580155.
+
+>>> La page 1580156 EXISTE (https://www.inaturalist.org/observations/1580156) !
+Unable to find picture url on page 1580156.
+
+>>> La page 1580157 EXISTE (https://www.inaturalist.org/observations/1580157) !
+Unable to find picture url on page 1580157.
+
+>>> La page 1580158 EXISTE (https://www.inaturalist.org/observations/1580158) !
+
+>>> La page 1580159 EXISTE (https://www.inaturalist.org/observations/1580159) !
+Unable to find scientific name on page 1580159.
+Unable to find picture url on page 1580159.
+
+>>> La page 1580160 EXISTE (https://www.inaturalist.org/observations/1580160) !
+Unable to find picture url on page 1580160.
+
+>>> La page 1580161 EXISTE (https://www.inaturalist.org/observations/1580161) !
+Unable to find scientific name on page 1580161.
+Unable to find picture url on page 1580161.
+
+>>> La page 1580162 EXISTE (https://www.inaturalist.org/observations/1580162) !
+Unable to find picture url on page 1580162.
+
+>>> La page 1580163 EXISTE (https://www.inaturalist.org/observations/1580163) !
+Unable to find common name on page 1580163.
+Unable to find scientific name on page 1580163.
+Unable to find picture url on page 1580163.
+Unable to find or parse latitude on page 1580163.
+Unable to find or parse longitude on page 1580163.
+Unable to find continent on page 1580163.
+Unable to find country on page 1580163.
+Unable to find state/region on page 1580163.
+
+>>> La page 1580164 EXISTE (https://www.inaturalist.org/observations/1580164) !
+Unable to find scientific name on page 1580164.
+Unable to find picture url on page 1580164.
+
+>>> La page 1580165 EXISTE (https://www.inaturalist.org/observations/1580165) !
+Unable to find scientific name on page 1580165.
+Unable to find picture url on page 1580165.
+
+>>> La page 1580166 EXISTE (https://www.inaturalist.org/observations/1580166) !
+Unable to find picture url on page 1580166.
+Unable to find or parse latitude on page 1580166.
+Unable to find or parse longitude on page 1580166.
+Unable to find continent on page 1580166.
+Unable to find country on page 1580166.
+Unable to find state/region on page 1580166.
+
+>>> La page 1580167 EXISTE (https://www.inaturalist.org/observations/1580167) !
+Unable to find picture url on page 1580167.
+
+>>> La page 1580168 EXISTE (https://www.inaturalist.org/observations/1580168) !
+Unable to find scientific name on page 1580168.
+Unable to find picture url on page 1580168.
+
+>>> La page 1580169 EXISTE (https://www.inaturalist.org/observations/1580169) !
+Unable to find picture url on page 1580169.
+
+>>> La page 1580170 EXISTE (https://www.inaturalist.org/observations/1580170) !
+
+>>> La page 1580171 EXISTE (https://www.inaturalist.org/observations/1580171) !
+Unable to find picture url on page 1580171.
+
+>>> La page 1580172 EXISTE (https://www.inaturalist.org/observations/1580172) !
+Unable to find common name on page 1580172.
+Unable to find scientific name on page 1580172.
+Unable to find or parse latitude on page 1580172.
+Unable to find or parse longitude on page 1580172.
+Unable to find continent on page 1580172.
+Unable to find country on page 1580172.
+Unable to find state/region on page 1580172.
+
+>>> La page 1580173 EXISTE (https://www.inaturalist.org/observations/1580173) !
+
+>>> La page 1580174 EXISTE (https://www.inaturalist.org/observations/1580174) !
+Unable to find scientific name on page 1580174.
+Unable to find picture url on page 1580174.
+
+>>> La page 1580175 EXISTE (https://www.inaturalist.org/observations/1580175) !
+Unable to find picture url on page 1580175.
+Unable to find or parse latitude on page 1580175.
+Unable to find or parse longitude on page 1580175.
+Unable to find continent on page 1580175.
+Unable to find country on page 1580175.
+Unable to find state/region on page 1580175.
+
+>>> La page 1580176 EXISTE (https://www.inaturalist.org/observations/1580176) !
+Unable to find common name on page 1580176.
+Unable to find scientific name on page 1580176.
+Unable to find or parse latitude on page 1580176.
+Unable to find or parse longitude on page 1580176.
+Unable to find continent on page 1580176.
+Unable to find country on page 1580176.
+Unable to find state/region on page 1580176.
+
+>>> La page 1580177 EXISTE (https://www.inaturalist.org/observations/1580177) !
+Unable to find scientific name on page 1580177.
+Unable to find picture url on page 1580177.
+Unable to find or parse latitude on page 1580177.
+Unable to find or parse longitude on page 1580177.
+Unable to find continent on page 1580177.
+Unable to find country on page 1580177.
+Unable to find state/region on page 1580177.
+
+>>> La page 1580178 EXISTE (https://www.inaturalist.org/observations/1580178) !
+Unable to find picture url on page 1580178.
+
+>>> La page 1580179 EXISTE (https://www.inaturalist.org/observations/1580179) !
+Unable to find picture url on page 1580179.
+
+>>> La page 1580180 EXISTE (https://www.inaturalist.org/observations/1580180) !
+Unable to find picture url on page 1580180.
+
+>>> La page 1580181 EXISTE (https://www.inaturalist.org/observations/1580181) !
+Unable to find picture url on page 1580181.
+
+>>> La page 1580182 EXISTE (https://www.inaturalist.org/observations/1580182) !
+Unable to find scientific name on page 1580182.
+Unable to find picture url on page 1580182.
+
+>>> La page 1580183 EXISTE (https://www.inaturalist.org/observations/1580183) !
+Unable to find picture url on page 1580183.
+Unable to find or parse latitude on page 1580183.
+Unable to find or parse longitude on page 1580183.
+Unable to find continent on page 1580183.
+Unable to find country on page 1580183.
+Unable to find state/region on page 1580183.
+
+>>> La page 1580184 EXISTE (https://www.inaturalist.org/observations/1580184) !
+Unable to find scientific name on page 1580184.
+Unable to find picture url on page 1580184.
+
+>>> La page 1580185 EXISTE (https://www.inaturalist.org/observations/1580185) !
+Unable to find picture url on page 1580185.
+
+>>> La page 1580186 EXISTE (https://www.inaturalist.org/observations/1580186) !
+Unable to find scientific name on page 1580186.
+Unable to find picture url on page 1580186.
+
+>>> La page 1580187 EXISTE (https://www.inaturalist.org/observations/1580187) !
+Unable to find picture url on page 1580187.
+
+>>> La page 1580188 EXISTE (https://www.inaturalist.org/observations/1580188) !
+Unable to find scientific name on page 1580188.
+Unable to find picture url on page 1580188.
+
+>>> La page 1580189 EXISTE (https://www.inaturalist.org/observations/1580189) !
+Unable to find picture url on page 1580189.
+
+>>> La page 1580190 EXISTE (https://www.inaturalist.org/observations/1580190) !
+Unable to find picture url on page 1580190.
+
+>>> La page 1580191 EXISTE (https://www.inaturalist.org/observations/1580191) !
+Unable to find picture url on page 1580191.
+
+>>> La page 1580192 EXISTE (https://www.inaturalist.org/observations/1580192) !
+Unable to find picture url on page 1580192.
+
+>>> La page 1580193 EXISTE (https://www.inaturalist.org/observations/1580193) !
+Unable to find picture url on page 1580193.
+
+>>> La page 1580194 EXISTE (https://www.inaturalist.org/observations/1580194) !
+Unable to find scientific name on page 1580194.
+Unable to find picture url on page 1580194.
+
+>>> La page 1580195 EXISTE (https://www.inaturalist.org/observations/1580195) !
+
+>>> La page 1580196 EXISTE (https://www.inaturalist.org/observations/1580196) !
+Unable to find scientific name on page 1580196.
+Unable to find picture url on page 1580196.
+
+>>> La page 1580197 EXISTE (https://www.inaturalist.org/observations/1580197) !
+Unable to find picture url on page 1580197.
+
+>>> La page 1580198 EXISTE (https://www.inaturalist.org/observations/1580198) !
+Unable to find picture url on page 1580198.
+
+>>> La page 1580199 EXISTE (https://www.inaturalist.org/observations/1580199) !
+Unable to find picture url on page 1580199.
+
+****************************************
+Webscraping started @ : 2023-10-23 23:49:33.547173
+Webscraping finished @ : 2023-10-23 23:57:11.388196
+100 webscraped page(s).
+
+The execution took : 0 days, 0 hours, 7 minutes and 37 seconds.
+Statistics : 13.10 pages/min.
+****************************************
+

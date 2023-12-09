@@ -1,0 +1,5 @@
+selenium
+selenium-stealth
+python-dateutil
+tqdm
+pyarrow

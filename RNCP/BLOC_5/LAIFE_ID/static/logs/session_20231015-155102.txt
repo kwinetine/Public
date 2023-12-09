@@ -1,0 +1,4 @@
+221 - 2023-10-15 15:51:10,972 - LIFE_ID_logger - ERROR - L'URL ne doit pas rediriger vers une image ! 
+216 - 2023-10-15 16:09:19,082 - LIFE_ID_logger - ERROR - Vous n'avez pas inséré d'URL ! 
+216 - 2023-10-15 16:09:25,008 - LIFE_ID_logger - ERROR - Vous n'avez pas inséré d'URL ! 
+181 - 2023-10-15 16:09:25,956 - LIFE_ID_logger - ERROR - Vous n'avez pas sélectionné d'image ! 
